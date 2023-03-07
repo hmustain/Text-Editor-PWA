@@ -16,7 +16,26 @@ This is a text editor application that runs in the browser, and meets PWA criter
 - [Questions](#questions)
 
 ## Installation
-TBD
+To install all of the packages and dependencies, copy the below line of code into your package.json <br>
+` "scripts": {
+    "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server nodemon server.js --ignore client",
+    "build": "cd client && npm run build",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "client": "cd client && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
+`
 
 ## Usage
 To use this app just enter npm start in the command line 
