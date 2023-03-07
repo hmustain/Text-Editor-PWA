@@ -40,6 +40,12 @@ To install all of the packages and dependencies, copy the below line of code int
 ## Usage
 To use this app just enter npm start in the command line 
 
+### Screenshot of the application
+![text-editor-ss](https://user-images.githubusercontent.com/109978698/223452018-bb9a842e-e6d1-4d20-ad3a-644244cd3cc3.png)
+
+### Link to deployed application
+https://text-editor-pwa-hm.herokuapp.com/
+
 ## Credits
 Teacher, Ta's, tutor and askbcs
 
