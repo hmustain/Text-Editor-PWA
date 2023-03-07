@@ -16,7 +16,7 @@ This is a text editor application that runs in the browser, and meets PWA criter
 - [Questions](#questions)
 
 ## Installation
-To install all of the packages and dependencies, copy the below line of code into your package.json <br>
+To install all of the packages and dependencies, copy the below line of code into your package.json and then type the command `npm install` from the command line to install packages <br>
 ` "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
     "start": "npm run build && cd server && node server.js",
